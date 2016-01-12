@@ -1,0 +1,32 @@
+{
+  "name": "happy-number",
+  "version": "0.0.1",
+  "description": "https://en.wikipedia.org/wiki/Happy_number",
+  "license": "MIT",
+  "repository": "ghpabs/happy-number",
+  "author": {
+    "name": "Pablo",
+    "url": "github.com/ghpabs/happy-number"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "happy",
+    "unhappy",
+    "sad",
+    "number",
+    "numbers"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "xo": "^0.12.1"
+  }
+}
